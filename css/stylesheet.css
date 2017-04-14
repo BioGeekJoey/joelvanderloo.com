@@ -1,13 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 [class*="col-"] {
   float: left;
   padding: 15px;
@@ -51,6 +41,15 @@
   .col-12 {width: 100%;}
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  margin: 0;
+}
+
 /* Mobile and tablet */
 body {
   background-image: url('img/background_tablet.JPG');
@@ -91,4 +90,10 @@ h1 {
 #box {
   background-color: rgba(219,219,203,0.75);
   border-radius: 8px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
