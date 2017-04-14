@@ -11,7 +11,7 @@
 [class*="col-"] {
   float: left;
   padding: 15px;
-  border: 0px solid red;
+  border: 1px solid red;
 }
 
 /* Mobile viewport */
@@ -77,8 +77,11 @@ body {
   }
 }
 
-h1 {
+h1, h3, p {
   font-family: Verdana;
+}
+  
+h1 {
   font-size: 60px;
   font-weight: bold;
   text-align: center;
